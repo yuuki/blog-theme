@@ -1,0 +1,84 @@
+/* <system section="theme" selected="evergreen"> */
+@import "/css/theme/evergreen/evergreen.css";
+/* </system> */
+
+/* <system section="background" selected="undefined"> */
+
+/* </system> */
+
+html, body {
+    background-color: #fffcf8;
+}
+
+#blog-title {
+    margin: 0 0 0px;
+    padding: 20px 0;
+    background: none;
+}
+
+#title {
+    top: 40px;
+    font-size: 120%;
+}
+
+#top-editarea {
+    text-align: center;  
+    margin: 0 auto 50px;
+    font-size: 20px;
+}
+
+a:visited {
+    color: #008000;
+}
+
+#container-inner {
+    max-width: 900px;
+    margin: 40px auto 0;
+    background: #fffcf8;
+    padding-bottom: 50px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-radius: 3px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+}
+
+#main {
+    float: none;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1.entry-title {
+    font-size: 30px;
+    color: #008000;
+}
+
+h1.entry-title a:visited {
+    color: #436861;
+}
+
+.entry-content {
+    font-size: 19px;
+    padding: 0 5px;
+    margin: 30px auto 0;
+}
+
+.entry-content > p {
+    font-size: 18px;
+}
+
+.code {
+    font-family: 'Osaka', 'Osak-Mono', 'Monaco', 'Consolas', 'Courier New', Courier, monospace, sans-serif;
+    font-size:85%;
+}
+
+.hatena-module-profile {
+    position: absolute;
+    top: 30px;
+    right: 15px;
+    z-index: 9999;
+}
